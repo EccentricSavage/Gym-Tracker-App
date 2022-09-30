@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Gym Tracker</string>
+    <string name="log_today_s_progress">Log Today\'s Progress</string>
+    <string name="view_history">View History</string>
+    <string name="gym_progress_tracker">Gym Progress Tracker</string>
+    <string name="main_activity_image">Main activity image</string>
+    <string name="placeholder_date">Wednesday, 29 Novemeber 2022</string>
+    <string name="add">Add</string>
+    <string name="placeholder_set">Benchpress | 100kg | 10</string>
+    <string name="exercise">Exercise</string>
+    <string name="weight">Weight</string>
+    <string name="reps">Reps</string>
+    <string name="done">Done</string>
+    <string name="log_progress">Log Progress</string>
+
+</resources>
