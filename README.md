@@ -1,6 +1,3 @@
-# Gym Tracker App
-
-
 # About the Project
 
  This is an Android app to track gym workouts.
@@ -23,3 +20,6 @@ Alternatively, an IDE such as Android Studio.
 Download `Gym_Tracker.apk` and run it on your android device.
 
 Alternatively, download the `Gym_Tracker_App` folder and import it into your IDE of choice.
+
+## Additional Information
+This app utilises a SQLite database to locally store data in tables. Any day can be selected to add your workout for that day. Any previously added workout data will be retained in the database for later review.
