@@ -14,7 +14,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
-        style="@style/Widget.AppCompat.Button.Borderless.Colored"
         android:paddingTop="20sp"
         android:paddingBottom="20sp"
         android:text="@string/placeholder_date"
@@ -22,7 +21,10 @@
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="@color/white"
+        />
+<!--    style="@style/Widget.AppCompat.Button.Borderless.Colored"-->
 
 
 
@@ -49,7 +51,7 @@
                 android:layout_column="0"
                 android:layout_weight="3"
                 android:paddingVertical="10dp"
-                android:textSize="18sp"
+                android:textSize="17sp"
                 android:text="@string/exercise"
                 android:textAlignment="center"
                 android:textColor="@color/white"
@@ -61,7 +63,7 @@
                 android:layout_width="0dp"
                 android:layout_column="1"
                 android:layout_weight="1"
-                android:textSize="18sp"
+                android:textSize="17sp"
                 android:paddingVertical="10dp"
                 android:text="@string/weight"
                 android:textAlignment="center"
@@ -75,7 +77,7 @@
                 android:layout_column="2"
                 android:layout_weight="1"
                 android:paddingVertical="10dp"
-                android:textSize="18sp"
+                android:textSize="17sp"
                 android:text="@string/reps"
                 android:textAlignment="center"
                 android:background="@drawable/heading_border"                android:textColor="@color/white"

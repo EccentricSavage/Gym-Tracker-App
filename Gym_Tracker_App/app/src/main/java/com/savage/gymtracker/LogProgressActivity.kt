@@ -48,7 +48,7 @@ class LogProgressActivity : AppCompatActivity() {
         // convert calendar date to datetime then set format
         fun dateConverter(year: Int, month: Int, day: Int): String {
             val selectedDate = LocalDate.parse("$year-${month+1}-$day", DateTimeFormatter.ofPattern("yyyy-M-d"))
-            val formatter: DateTimeFormatter = DateTimeFormatter.ofPattern("eeee, d MMMM u")
+            val formatter: DateTimeFormatter = DateTimeFormatter.ofPattern("eee, d MMMM u")
             return selectedDate.format(formatter)
         }
 
