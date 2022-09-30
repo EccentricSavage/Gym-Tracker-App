@@ -23,3 +23,6 @@ Alternatively, download the `Gym_Tracker_App` folder and import it into your IDE
 
 ## Additional Information
 This app utilises a SQLite database to locally store data in tables. Any day can be selected to add your workout for that day. Any previously added workout data will be retained in the database for later review.
+
+## Note
+This is the first app I have built. I did it as a personal challenge without prior knowledge of Kotlin or XML.
